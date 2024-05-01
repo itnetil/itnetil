@@ -1,0 +1,87 @@
+/*https://codepen.io/deracans-the-styleful/pen/YzeJyXz template source code*/
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: grid;
+  font-size: 2rem;
+  place-items: center;
+  background: linear-gradient(to right bottom, #ffb88e, #6b2b7b);
+  font-family: Alef, Rockwell, "Courier New", Courier, Georgia, Times, "Times New Roman", serif;
+}
+
+.container {
+  width: 40vw;
+  padding: 3rem;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  position: relative;
+  border-radius: 3rem;
+  background: linear-gradient(to right bottom, rgba(255, 184, 142, 0.44), rgba(255, 255, 255, 0.5));
+}
+.container::-webkit-scrollbar {
+  width: 0;
+}
+.container::before {
+  content: "";
+  top: -10rem;
+  left: -10rem;
+  width: 40rem;
+  height: 40rem;
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.35);
+}
+.container::after {
+  content: "";
+  bottom: 0rem;
+  right: -10rem;
+  width: 40rem;
+  height: 40rem;
+  margin-bottom: -25rem;
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(255, 185, 142, 0.6);
+}
+.container h1 {
+  top: 0;
+  margin: 0;
+  padding: 6rem 0;
+  padding-top: 7rem;
+  position: sticky;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 3rem;
+  box-shadow: 0 7px 2rem #6b2b7b;
+  background: rgba(118, 47, 133, 0.7);
+}
+.container ol {
+  margin: 0;
+  gap: 1rem;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  place-items: center;
+  flex-direction: column;	
+  counter-reset: my-counter;
+}
+.container ol li {
+  width: 40rem;
+  text-align: center;
+  color: #fff;
+  border-radius: 3rem;
+  background: rgba(118, 47, 133, 0.7);
+  counter-increment: my-counter;
+  padding: 1.1rem 1.5rem 1.1rem 1.5rem;
+}
+.container ol li::before {
+  content: counter(my-counter) ". ";
+}
+a {
+	color: #d5e4ec;
+}
