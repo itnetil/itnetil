@@ -1,174 +1,148 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="he" dir="rtl">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="IT-NET — שירותי מחשוב מנוהלים, אבטחת מידע, תשתיות ותמיכה לעסקים מאז 2007.">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="IT-NET – שירותי מחשוב מנוהלים, אבטחת מידע, ענן ותשתיות לעסקים וארגונים מאז 2007." />
   <title>IT-NET | פתרונות מחשוב לעסקים</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="topbar">
-    <div class="container topbar-inner">
-      <span>פתרונות מחשוב לעסקים מאז 2007</span>
-      <div class="topbar-links">
-        <a href="tel:033746600">03-3746600</a>
-        <span class="dot">•</span>
-        <a href="mailto:support@it-net.co.il">support@it-net.co.il</a>
-      </div>
-    </div>
-  </div>
-
   <header class="site-header">
     <div class="container nav-wrap">
-      <a class="logo" href="#top" aria-label="IT-NET דף הבית">
-        <img src="assets/itnet-logo.png" alt="IT-NET פתרונות מחשוב לעסקים">
+      <a class="brand" href="#top" aria-label="IT-NET">
+        <img src="assets/logo.png" alt="IT-NET פתרונות מחשוב לעסקים" />
       </a>
-      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mainNav">☰</button>
-      <nav id="mainNav" class="main-nav" aria-label="ניווט ראשי">
+      <button class="menu-btn" id="menuBtn" aria-label="פתיחת תפריט" aria-expanded="false">☰</button>
+      <nav class="main-nav" id="mainNav" aria-label="ניווט ראשי">
+        <a href="#top" class="active">ראשי</a>
         <a href="#about">אודות</a>
-        <a href="#why">למה IT-NET</a>
         <a href="#services">שירותים</a>
         <a href="#process">איך אנחנו עובדים</a>
+        <a href="#why">למה IT-NET</a>
       </nav>
-      <a class="header-phone" href="tel:033746600">
-        <span class="phone-icon">☎</span>
-        <span><small>דברו איתנו</small><strong>03-3746600</strong></span>
-      </a>
+      <a class="phone-pill" href="tel:033746600">03-3746600 <span>☎</span></a>
     </div>
   </header>
 
   <main id="top">
     <section class="hero">
-      <div class="brand-orbit orbit-a"></div>
-      <div class="brand-orbit orbit-b"></div>
-      <div class="brand-orbit orbit-c"></div>
-      <div class="container hero-grid">
-        <div class="hero-copy">
-          <span class="eyebrow"><i></i> מעטפת IT מלאה לעסקים וארגונים</span>
-          <h1>שקט תפעולי מתחיל במערך <span>IT יציב</span></h1>
-          <p class="lead">IT-NET מספקת שירותי מחשוב מנוהלים, אבטחת מידע, תשתיות ותמיכה מקצועית לעסקים, חברות ומוסדות מאז 2007.</p>
-          <p>אנחנו דואגים שהמערכות שלכם יהיו זמינות, מאובטחות ומתפקדות — כדי שאתם תוכלו להתמקד בניהול העסק.</p>
-          <div class="hero-actions">
-            <a class="btn btn-primary" href="#services">לשירותים שלנו</a>
-            <a class="btn btn-ghost" href="#about">להכיר את IT-NET</a>
-          </div>
+      <div class="hero-grid-bg" aria-hidden="true"></div>
+      <div class="hero-orbits" aria-hidden="true"><span></span><span></span><span></span></div>
+      <div class="container hero-inner">
+        <div class="hero-copy reveal">
+          <div class="eyebrow">IT מנוהל לעסקים וארגונים</div>
+          <h1>שקט תפעולי<br><span>מתחיל במערך IT יציב</span></h1>
+          <p>מאז 2007 אנחנו מלווים עסקים, חברות ומוסדות עם שירותי מחשוב, סייבר ותשתיות מתקדמות – כדי שהמערכות שלכם יהיו זמינות, מאובטחות ומתפקדות.</p>
           <div class="hero-points">
-            <span>שירות אישי</span>
-            <span>תחזוקה יזומה</span>
-            <span>תמיכה מרחוק ובשטח</span>
+            <span>✓ שירות אישי</span>
+            <span>✓ ניטור שוטף</span>
+            <span>✓ תמיכה מרחוק ובשטח</span>
+            <span>✓ פתרונות ענן וסייבר</span>
+          </div>
+          <div class="hero-actions">
+            <a class="primary-btn" href="tel:033746600">דברו איתנו <span>←</span></a>
+            <a class="ghost-btn" href="#services">לשירותים שלנו</a>
           </div>
         </div>
 
-        <div class="hero-art" aria-hidden="true">
-          <div class="globe">
-            <span class="stripe s1"></span><span class="stripe s2"></span><span class="stripe s3"></span>
-            <span class="stripe s4"></span><span class="stripe s5"></span><span class="stripe s6"></span>
-            <span class="stripe s7"></span><span class="stripe s8"></span><span class="stripe s9"></span>
-          </div>
-          <div class="screen-card">
-            <div class="screen-top"><span>IT-NET Control Center</span><div><b></b><b></b><b></b></div></div>
-            <div class="screen-body">
-              <div class="status-row"><span class="status-icon">✓</span><div><strong>כל המערכות פעילות</strong><small>ניטור ובקרה בזמן אמת</small></div></div>
-              <div class="availability"><strong>99.9%</strong><span>זמינות תשתיות</span></div>
-              <div class="chart"><i style="height:36%"></i><i style="height:58%"></i><i style="height:48%"></i><i style="height:72%"></i><i style="height:64%"></i><i style="height:88%"></i><i style="height:80%"></i></div>
-              <div class="mini-grid"><div><b>24/7</b><span>ניטור רציף</span></div><div><b>100%</b><span>מחויבות</span></div></div>
+        <div class="hero-visual reveal" aria-label="המחשה של מערך שרתים וענן">
+          <div class="server-stage">
+            <div class="glow glow-1"></div><div class="glow glow-2"></div>
+            <div class="rack rack-a">
+              <b></b><i></i><i></i><i></i><i></i><i></i>
             </div>
+            <div class="rack rack-b">
+              <b></b><i></i><i></i><i></i><i></i><i></i>
+            </div>
+            <div class="rack rack-c">
+              <b></b><i></i><i></i><i></i><i></i><i></i>
+            </div>
+            <div class="cloud-node">☁<small>Secure Cloud</small></div>
+            <svg class="data-lines" viewBox="0 0 560 390" role="img" aria-label="קווי נתונים">
+              <path d="M20 320 C130 245 170 360 300 265 S460 210 540 90"/>
+              <path d="M0 355 C120 270 220 410 330 300 S475 250 550 150"/>
+              <path d="M35 282 C145 210 240 315 340 220 S490 160 550 30"/>
+              <circle cx="86" cy="285" r="6"/><circle cx="248" cy="300" r="6"/><circle cx="382" cy="242" r="6"/><circle cx="492" cy="150" r="6"/>
+            </svg>
           </div>
-          <div class="float-card security"><span>🛡</span><div><b>אבטחה פעילה</b><small>שכבות הגנה מתקדמות</small></div></div>
-          <div class="float-card support"><span>⚡</span><div><b>תגובה מהירה</b><small>מרחוק ובשטח</small></div></div>
+        </div>
+      </div>
+
+      <div class="container quick-strip reveal">
+        <article><span class="mini-icon">▤</span><div><strong>ניהול IT</strong><small>מעטפת מלאה לארגון</small></div></article>
+        <article><span class="mini-icon shield">⌾</span><div><strong>אבטחת מידע</strong><small>הגנה רב־שכבתית</small></div></article>
+        <article><span class="mini-icon microsoft">▦</span><div><strong>Microsoft 365</strong><small>ניהול סביבת הענן</small></div></article>
+        <article><span class="mini-icon cloud">☁</span><div><strong>ענן חכם</strong><small>זמינות והמשכיות</small></div></article>
+      </div>
+    </section>
+
+    <section class="partners" aria-label="טכנולוגיות מובילות">
+      <div class="container partner-box reveal">
+        <div class="partner-title"><span></span> שותפים טכנולוגיים <span></span></div>
+        <div class="partner-list">
+          <strong>Microsoft</strong><strong>FORTINET</strong><strong class="eset">eset</strong><strong>vmware</strong><strong>Synology</strong><strong class="cloudflare">Cloudflare</strong>
         </div>
       </div>
     </section>
 
-    <section class="brand-stats">
-      <div class="container stats-grid">
-        <div><strong>18+</strong><span>שנות ניסיון</span></div>
-        <div><strong>2007</strong><span>שנת הקמת החברה</span></div>
-        <div><strong>24/7</strong><span>ניטור מערכות</span></div>
-        <div><strong>100%</strong><span>מחויבות לשירות</span></div>
+    <section class="section intro" id="about">
+      <div class="container center-head reveal">
+        <div class="eyebrow orange">השירותים שלנו</div>
+        <h2>פתרונות מקצה לקצה לעסק שלך</h2>
+        <p>מערך IT מקצועי שמחבר בין אנשים, תשתיות, אבטחה וענן – תחת כתובת אחת שמכירה את הארגון שלכם.</p>
       </div>
     </section>
 
-    <section id="about" class="about-section section">
-      <div class="container about-grid">
-        <div class="about-heading">
-          <span class="eyebrow"><i></i> מי אנחנו</span>
-          <h2>שותפים להצלחה הטכנולוגית של העסק שלכם</h2>
-          <div class="color-line"><i></i><i></i><i></i><i></i></div>
-        </div>
-        <div class="about-content">
-          <p>מאז 2007 IT-NET מלווה עסקים, חברות ומוסדות ומספקת להם מעטפת מקצועית לניהול מערכות המחשוב, התקשורת ואבטחת המידע.</p>
-          <p>אנחנו מאמינים ששירות איכותי מתחיל בהיכרות אמיתית עם הארגון, ממשיך בזמינות גבוהה ונמדד ביכולת לפתור בעיות במהירות — או טוב יותר, למנוע אותן מראש.</p>
-          <p>אצלנו יש אנשי מקצוע שמכירים את סביבת העבודה שלכם, חושבים קדימה ופועלים באחריות מלאה כדי להבטיח יציבות, אבטחה ורציפות תפעולית.</p>
-        </div>
+    <section class="section services" id="services">
+      <div class="container service-grid">
+        <article class="service-card reveal"><div class="service-icon">⌁</div><h3>שירותי מחשוב מנוהלים</h3><p>ניהול מלא של תחנות עבודה, משתמשים, שרתים ותשתיות, תוך בקרה שוטפת ותחזוקה יזומה.</p><span></span></article>
+        <article class="service-card reveal"><div class="service-icon orange-icon">◈</div><h3>אבטחת מידע וסייבר</h3><p>Firewall, ‏VPN, ‏ESET, הקשחת מערכות, ניהול הרשאות ומעטפת הגנה רב־שכבתית.</p><span></span></article>
+        <article class="service-card reveal"><div class="service-icon">▤</div><h3>שרתים ותשתיות</h3><p>Windows Server, ‏Active Directory, ‏VMware, ‏Hyper-V, ‏Storage ו־NAS.</p><span></span></article>
+        <article class="service-card reveal"><div class="service-icon multi">✦</div><h3>Microsoft 365</h3><p>ניהול משתמשים, רישיונות, Exchange Online, Teams, SharePoint, OneDrive ומדיניות אבטחה.</p><span></span></article>
+        <article class="service-card reveal"><div class="service-icon">♧</div><h3>תמיכה טכנית</h3><p>תמיכה מרחוק ובשטח, זמני תגובה מהירים, טיפול מקצועי ושירות אישי.</p><span></span></article>
+        <article class="service-card reveal"><div class="service-icon cyan-icon">☁</div><h3>גיבוי והתאוששות</h3><p>פתרונות גיבוי ושחזור מהירים לשמירה על המשכיות עסקית גם בזמן תקלה או אירוע סייבר.</p><span></span></article>
       </div>
     </section>
 
-    <section id="why" class="why-section section soft-bg">
-      <div class="container">
-        <div class="section-head">
-          <span class="eyebrow centered"><i></i> למה IT-NET</span>
-          <h2>לא מחכים לתקלות — מונעים אותן</h2>
-          <p>שילוב של ניסיון, זמינות, תחזוקה יזומה וחשיבה לטווח ארוך.</p>
-        </div>
-        <div class="why-grid">
-          <article class="feature-card blue"><span class="feature-no">01</span><div class="feature-icon">◎</div><h3>שירות אישי</h3><p>אנחנו מכירים את הלקוחות, המשתמשים והמערכות ומעניקים ליווי מקצועי לאורך זמן.</p></article>
-          <article class="feature-card orange"><span class="feature-no">02</span><div class="feature-icon">↻</div><h3>תחזוקה יזומה</h3><p>ניטור שוטף ובקרה מתמדת מאפשרים לזהות ולטפל בבעיות לפני שהן הופכות להשבתה.</p></article>
-          <article class="feature-card cyan"><span class="feature-no">03</span><div class="feature-icon">◇</div><h3>אבטחת מידע</h3><p>מעטפת הגנה מותאמת הכוללת Firewall, הגנת תחנות קצה, VPN, הרשאות ומדיניות אבטחה.</p></article>
-          <article class="feature-card yellow"><span class="feature-no">04</span><div class="feature-icon">⚡</div><h3>זמינות גבוהה</h3><p>תמיכה מרחוק ובשטח וכתובת מקצועית אחת לכל צורכי המחשוב של הארגון.</p></article>
-          <article class="feature-card blue"><span class="feature-no">05</span><div class="feature-icon">▦</div><h3>חשיבה עסקית</h3><p>פתרונות שמותאמים למטרות, לתקציב, לסיכונים ולתוכניות הצמיחה של העסק.</p></article>
-          <article class="feature-card orange"><span class="feature-no">06</span><div class="feature-icon">★</div><h3>ניסיון מוכח</h3><p>למעלה מ-18 שנות ניסיון בניהול תשתיות, משתמשים ומערכות מחשוב בארגונים.</p></article>
+    <section class="process-wrap" id="process">
+      <div class="container process-box reveal">
+        <div class="process-head"><div class="eyebrow light">תהליך ברור ושקוף</div><h2>איך אנחנו עובדים</h2></div>
+        <div class="steps">
+          <article><div class="step-num">01</div><div class="step-icon">◇</div><h3>אפיון והיכרות</h3><p>לומדים את הארגון, הצרכים, המשתמשים והתשתיות.</p></article>
+          <article><div class="step-num orange-txt">02</div><div class="step-icon orange-border">⚙</div><h3>יישור קו ושדרוג</h3><p>מגדירים תכנית עבודה, מטפלים בפערים ומטמיעים פתרונות.</p></article>
+          <article><div class="step-num">03</div><div class="step-icon">▣</div><h3>ניהול ותחזוקה</h3><p>ניטור שוטף, תחזוקה מונעת ואופטימיזציה מתמדת.</p></article>
+          <article><div class="step-num orange-txt">04</div><div class="step-icon orange-border">♧</div><h3>ליווי לאורך זמן</h3><p>שירות אישי, זמינות גבוהה ושותפות אמיתית.</p></article>
         </div>
       </div>
     </section>
 
-    <section id="services" class="services-section section">
-      <div class="container">
-        <div class="section-head">
-          <span class="eyebrow centered"><i></i> השירותים שלנו</span>
-          <h2>מעטפת IT מלאה תחת קורת גג אחת</h2>
-          <p>פתרונות מקצה לקצה המאפשרים לארגון לעבוד בצורה יציבה, מאובטחת ויעילה.</p>
-        </div>
-        <div class="services-grid">
-          <article class="service-card"><span class="service-icon blue">▦</span><div><h3>שירותי מחשוב מנוהלים</h3><p>ניהול מלא של תחנות עבודה, שרתים, משתמשים, הרשאות, ציוד ותשתיות.</p><ul><li>תחזוקה שוטפת</li><li>ניטור ובקרה</li><li>ניהול ציוד ומשתמשים</li></ul></div></article>
-          <article class="service-card"><span class="service-icon orange">◇</span><div><h3>אבטחת מידע וסייבר</h3><p>הגנה רב־שכבתית על המידע, המשתמשים והמערכות מפני איומים.</p><ul><li>Firewall ו-VPN</li><li>ESET Protect</li><li>הקשחת מערכות והרשאות</li></ul></div></article>
-          <article class="service-card"><span class="service-icon cyan">⌘</span><div><h3>שרתים ותשתיות</h3><p>תכנון, הקמה, שדרוג ותחזוקה של תשתיות מקומיות ווירטואליות.</p><ul><li>Windows Server</li><li>Active Directory</li><li>Hyper-V, VMware ו-NAS</li></ul></div></article>
-          <article class="service-card"><span class="service-icon yellow">☁</span><div><h3>Microsoft 365 וענן</h3><p>ניהול מלא של סביבת Microsoft והתאמת שירותי הענן לצורכי הארגון.</p><ul><li>Exchange Online</li><li>Teams, SharePoint ו-OneDrive</li><li>רישיונות ומדיניות אבטחה</li></ul></div></article>
-          <article class="service-card"><span class="service-icon blue">↻</span><div><h3>גיבוי והתאוששות מאסון</h3><p>פתרונות גיבוי ושחזור המאפשרים חזרה מהירה לעבודה.</p><ul><li>גיבוי מקומי וענן</li><li>בדיקות שחזור</li><li>המשכיות עסקית</li></ul></div></article>
-          <article class="service-card"><span class="service-icon orange">◉</span><div><h3>תמיכה טכנית</h3><p>מענה מקצועי למשתמשים מרחוק ובשטח, תוך הקפדה על שירות ושקיפות.</p><ul><li>תמיכה מרחוק</li><li>טכנאי עד האתר</li><li>חומרה ותוכנה</li></ul></div></article>
-        </div>
+    <section class="stats" id="why">
+      <div class="container stats-grid reveal">
+        <article><div class="stat-icon orange-icon">🏆</div><strong>18+</strong><span>שנות ניסיון בליווי עסקים וארגונים</span></article>
+        <article><div class="stat-icon">♢</div><strong>24/7</strong><span>ניטור מערכות וזמינות גבוהה</span></article>
+        <article><div class="stat-icon orange-icon">▦</div><strong>2007</strong><span>שנת הקמת החברה</span></article>
+        <article><div class="stat-icon">♧</div><strong>100%</strong><span>מחויבות לשירות אישי ומקצועי</span></article>
       </div>
     </section>
 
-    <section id="process" class="process-section section">
-      <div class="process-bg-lines"></div>
-      <div class="container">
-        <div class="section-head light-head">
-          <span class="eyebrow centered"><i></i> איך אנחנו עובדים</span>
-          <h2>תהליך מסודר שמייצר יציבות לאורך זמן</h2>
-          <p>מהיכרות ראשונית ועד ניהול שוטף וליווי בצמיחת הארגון.</p>
-        </div>
-        <div class="process-grid">
-          <article><span>01</span><h3>היכרות ואפיון</h3><p>לומדים את הארגון, המשתמשים, התשתיות, הסיכונים והצרכים.</p></article>
-          <article><span>02</span><h3>יישור קו</h3><p>מטפלים בליקויים, מעדכנים מערכות ומייצרים סביבת עבודה יציבה.</p></article>
-          <article><span>03</span><h3>ניהול וניטור</h3><p>מתחזקים את המערכות באופן יזום ומזהים בעיות לפני שהן משפיעות.</p></article>
-          <article><span>04</span><h3>ליווי וצמיחה</h3><p>מתאימים את מערך המחשוב לשינויים, לדרישות ולצמיחת הארגון.</p></article>
+    <section class="cta-band">
+      <div class="cta-pattern" aria-hidden="true"></div>
+      <div class="container cta-inner reveal">
+        <div><h2>רוצים שקט תפעולי? אנחנו כאן בשבילכם.</h2><p>צוות מומחים, טכנולוגיות מתקדמות ושירות שניתן לסמוך עליו.</p></div>
+        <div class="contact-actions">
+          <a href="mailto:support@it-net.co.il">support@it-net.co.il ✉</a>
+          <a href="tel:033746600">03-3746600 ☎</a>
+          <a href="https://wa.me/97233746600" target="_blank" rel="noopener">שלחו הודעה ◉</a>
         </div>
       </div>
     </section>
   </main>
 
   <footer class="footer">
-    <div class="container footer-grid">
-      <img src="assets/itnet-logo.png" alt="IT-NET">
-      <p>שירותי מחשוב, תשתיות ואבטחת מידע לעסקים מאז 2007</p>
-      <div class="footer-links"><a href="tel:033746600">03-3746600</a><a href="mailto:support@it-net.co.il">support@it-net.co.il</a></div>
-    </div>
-    <div class="container copyright">© 2026 IT-NET. כל הזכויות שמורות.</div>
+    <div class="container"><span>© <span id="year"></span> IT-NET. כל הזכויות שמורות.</span><span>פתרונות מחשוב לעסקים מאז 2007</span></div>
   </footer>
 
-  <a class="whatsapp" href="https://wa.me/97233746600" aria-label="WhatsApp">WA</a>
   <script src="script.js"></script>
 </body>
 </html>
