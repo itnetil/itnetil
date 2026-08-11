@@ -1965,3 +1965,38 @@ img {
     grid-template-columns: 1fr;
   }
 }
+
+
+
+.partner-logo.microsoft img {
+  width: 115px;
+}
+
+.partner-logo.fortinet img {
+  width: 145px;
+}
+
+.partner-logo.eset img {
+  width: 105px;
+}
+
+.partner-logo.vmware img {
+  width: 145px;
+}
+
+.partner-logo.synology img {
+  width: 145px;
+}
+
+.partner-logo.cloudflare img {
+  width: 180px;
+}
+.partner-logo.eset,
+.partner-logo.microsoft,
+.partner-logo.cloudflare,
+.partner-logo.vmware,
+.partner-logo.synology,
+.partner-logo.fortinet {
+  background: #ffffff;
+  border-radius: 10px;
+}
