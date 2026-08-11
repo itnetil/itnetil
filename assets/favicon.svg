@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+
+  <!-- Dark navy background -->
+  <rect width="64" height="64" rx="14" fill="#061a3a"></rect>
+
+  <!-- Blue network/orbit -->
+  <path d="M12 39
+       C18 47 31 51 43 45
+       C51 41 55 34 54 27" fill="none" stroke="#12c6ee" stroke-width="4" stroke-linecap="round"></path>
+
+  <path d="M10 32
+       C16 40 28 44 40 40
+       C49 37 54 30 53 22" fill="none" stroke="#0d7fe8" stroke-width="4" stroke-linecap="round"></path>
+
+  <!-- Orange orbit -->
+  <path d="M13 25
+       C21 18 34 17 45 22
+       C50 24 53 28 54 32" fill="none" stroke="#ff7a1a" stroke-width="4" stroke-linecap="round"></path>
+
+  <!-- Yellow orbit -->
+  <path d="M16 20
+       C24 14 36 14 45 19" fill="none" stroke="#f6c54a" stroke-width="3.5" stroke-linecap="round"></path>
+
+  <!-- Network core -->
+  <circle cx="31" cy="31" r="8" fill="#0d7fe8"></circle>
+  <circle cx="31" cy="31" r="5" fill="#12c6ee"></circle>
+
+  <!-- Small network nodes -->
+  <circle cx="14" cy="25" r="2.5" fill="#ff7a1a"></circle>
+  <circle cx="18" cy="43" r="2.5" fill="#f6c54a"></circle>
+  <circle cx="46" cy="20" r="2.5" fill="#ff7a1a"></circle>
+  <circle cx="51" cy="34" r="2.5" fill="#12c6ee"></circle>
+</svg>
