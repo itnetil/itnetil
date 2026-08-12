@@ -61,23 +61,17 @@ img {
   position: fixed;
   inset: 0 0 auto 0;
   z-index: 1000;
-
   height: 82px;
-
   background: rgba(5, 21, 48, 0.94);
   backdrop-filter: blur(16px);
-
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .nav-wrap {
   height: 82px;
-
   display: flex;
   align-items: center;
-
   gap: 30px;
-
   /*
     The site is Hebrew / RTL.
     Keep the header direction explicit so the logo
@@ -92,34 +86,24 @@ img {
 .brand {
   display: flex;
   align-items: center;
-
   flex: 0 0 auto;
-
   width: 175px;
   height: 72px;
-
   margin: 0;
   padding: 0;
-
   overflow: hidden;
 }
 
 .brand img {
   display: block;
-
   width: 175px;
   height: auto;
-
   max-height: 68px;
-
   object-fit: contain;
   object-position: center;
-
   margin: 0;
   padding: 0;
-
   background: transparent;
-
   filter: none;
 }
 
@@ -182,11 +166,9 @@ img {
 
   color: #fff;
 
-  background: linear-gradient(
-    135deg,
-    var(--blue),
-    var(--cyan)
-  );
+  background: linear-gradient(135deg,
+      var(--blue),
+      var(--cyan));
 
   font-weight: 800;
 
@@ -223,17 +205,13 @@ img {
   position: relative;
   color: #fff;
   background:
-    radial-gradient(
-      circle at 30% 30%,
+    radial-gradient(circle at 30% 30%,
       #0b4088 0,
-      transparent 32%
-    ),
-    linear-gradient(
-      135deg,
+      transparent 32%),
+    linear-gradient(135deg,
       #03142f 0%,
       #062456 55%,
-      #041634 100%
-    );
+      #041634 100%);
 
   overflow: hidden;
 }
@@ -248,11 +226,9 @@ img {
   height: 95px;
 
   background:
-    linear-gradient(
-      to bottom,
+    linear-gradient(to bottom,
       transparent,
-      #edf3fa
-    );
+      #edf3fa);
 }
 
 .hero-grid-bg {
@@ -262,24 +238,18 @@ img {
   opacity: 0.14;
 
   background-image:
-    linear-gradient(
+    linear-gradient(rgba(80, 180, 255, 0.22) 1px,
+      transparent 1px),
+    linear-gradient(90deg,
       rgba(80, 180, 255, 0.22) 1px,
-      transparent 1px
-    ),
-    linear-gradient(
-      90deg,
-      rgba(80, 180, 255, 0.22) 1px,
-      transparent 1px
-    );
+      transparent 1px);
 
   background-size: 55px 55px;
 
   mask-image:
-    linear-gradient(
-      to left,
+    linear-gradient(to left,
       black,
-      transparent 68%
-    );
+      transparent 68%);
 }
 
 .hero-orbits span {
@@ -322,8 +292,7 @@ img {
   display: grid;
 
   grid-template-columns:
-    1.02fr
-    0.98fr;
+    1.02fr 0.98fr;
 
   align-items: center;
 
@@ -374,26 +343,19 @@ img {
 
 .hero h1 span {
   background:
-    linear-gradient(
-      90deg,
+    linear-gradient(90deg,
       var(--cyan),
       #8ddcff,
-      var(--orange)
-    );
-
+      var(--orange));
   -webkit-background-clip: text;
   background-clip: text;
-
   color: transparent;
 }
 
-.hero-copy > p {
+.hero-copy>p {
   font-size: 1.2rem;
-
   color: #d7e6f8;
-
   max-width: 690px;
-
   margin-bottom: 25px;
 }
 
@@ -429,7 +391,7 @@ img {
 
   border-radius: 40px;
 
-  font-weight: 800;
+  /*font-weight: 800;*/
 
   display: inline-flex;
   align-items: center;
@@ -441,11 +403,9 @@ img {
 
 .primary-btn {
   background:
-    linear-gradient(
-      135deg,
+    linear-gradient(135deg,
       var(--blue),
-      var(--cyan)
-    );
+      var(--cyan));
 
   box-shadow:
     0 14px 35px rgba(18, 198, 238, 0.28);
@@ -484,11 +444,9 @@ img {
   border-radius: 36px;
 
   background:
-    linear-gradient(
-      145deg,
+    linear-gradient(145deg,
       rgba(9, 34, 75, 0.98),
-      rgba(6, 17, 44, 0.76)
-    );
+      rgba(6, 17, 44, 0.76));
 
   border:
     1px solid rgba(112, 196, 255, 0.22);
@@ -509,12 +467,10 @@ img {
   inset: 0;
 
   background:
-    linear-gradient(
-      90deg,
+    linear-gradient(90deg,
       transparent,
       rgba(16, 170, 255, 0.12),
-      transparent
-    );
+      transparent);
 
   transform: skewX(-18deg);
 }
@@ -533,12 +489,10 @@ img {
   border-radius: 12px;
 
   background:
-    linear-gradient(
-      90deg,
+    linear-gradient(90deg,
       #06162f,
       #0b2b57,
-      #051329
-    );
+      #051329);
 
   box-shadow:
     0 0 30px rgba(0, 153, 255, 0.18),
@@ -567,11 +521,9 @@ img {
   border-radius: 5px;
 
   background:
-    linear-gradient(
-      90deg,
+    linear-gradient(90deg,
       #071324,
-      #0c315d
-    );
+      #0c315d);
 
   border:
     1px solid #174a7e;
@@ -692,9 +644,7 @@ img {
   fill: var(--cyan);
 
   filter:
-    drop-shadow(
-      0 0 7px var(--cyan)
-    );
+    drop-shadow(0 0 7px var(--cyan));
 }
 
 
@@ -782,11 +732,9 @@ img {
 
 .partner-box {
   background:
-    linear-gradient(
-      135deg,
+    linear-gradient(135deg,
       #082454,
-      #071c43
-    );
+      #071c43);
 
   border-radius: 22px;
 
@@ -864,9 +812,7 @@ img {
   object-fit: contain;
 
   filter:
-    drop-shadow(
-      0 2px 4px rgba(0, 0, 0, 0.15)
-    );
+    drop-shadow(0 2px 4px rgba(0, 0, 0, 0.15));
 }
 
 
@@ -959,10 +905,8 @@ img {
   width: 3px;
 
   background:
-    linear-gradient(
-      var(--cyan),
-      var(--blue)
-    );
+    linear-gradient(var(--cyan),
+      var(--blue));
 
   opacity: 0;
 
@@ -985,7 +929,7 @@ img {
   font-size: 0.94rem;
 }
 
-.service-card > span {
+.service-card>span {
   position: absolute;
 
   right: 0;
@@ -997,8 +941,8 @@ img {
   background: var(--blue);
 }
 
-.service-card:nth-child(2) > span,
-.service-card:nth-child(5) > span {
+.service-card:nth-child(2)>span,
+.service-card:nth-child(5)>span {
   background: var(--orange);
 }
 
@@ -1012,11 +956,9 @@ img {
   place-items: center;
 
   background:
-    linear-gradient(
-      145deg,
+    linear-gradient(145deg,
       #e6f4ff,
-      #f8fcff
-    );
+      #f8fcff);
 
   color: var(--blue);
 
@@ -1038,12 +980,10 @@ img {
 
 .service-icon.multi {
   background:
-    linear-gradient(
-      135deg,
+    linear-gradient(135deg,
       #4a40ff,
       #22c9d9,
-      #ff6aa0
-    );
+      #ff6aa0);
 
   color: #fff;
 }
@@ -1061,11 +1001,9 @@ img {
   position: relative;
 
   background:
-    linear-gradient(
-      135deg,
+    linear-gradient(135deg,
       #082553,
-      #06204a
-    );
+      #06204a);
 
   color: #fff;
 
@@ -1129,12 +1067,10 @@ img {
   height: 1px;
 
   background:
-    linear-gradient(
-      90deg,
+    linear-gradient(90deg,
       var(--cyan),
-      rgba(255,255,255,0.35),
-      var(--orange)
-    );
+      rgba(255, 255, 255, 0.35),
+      var(--orange));
 }
 
 .steps article {
@@ -1262,11 +1198,9 @@ img {
   position: relative;
 
   background:
-    linear-gradient(
-      135deg,
+    linear-gradient(135deg,
       #07285c,
-      #061c43
-    );
+      #061c43);
 
   color: #fff;
 
@@ -1281,16 +1215,12 @@ img {
   inset: 0;
 
   background:
-    radial-gradient(
-      circle at 15% 110%,
+    radial-gradient(circle at 15% 110%,
       rgba(18, 198, 238, 0.25),
-      transparent 35%
-    ),
-    repeating-linear-gradient(
-      135deg,
+      transparent 35%),
+    repeating-linear-gradient(135deg,
       transparent 0 22px,
-      rgba(255, 255, 255, 0.035) 22px 30px
-    );
+      rgba(255, 255, 255, 0.035) 22px 30px);
 }
 
 .cta-inner {
@@ -1394,11 +1324,9 @@ img {
   position: relative;
 
   background:
-    linear-gradient(
-      135deg,
+    linear-gradient(135deg,
       #f7fbff,
-      #edf6ff
-    );
+      #edf6ff);
 
   border:
     1px solid #dce9f7;
@@ -1423,11 +1351,9 @@ img {
   border-radius: 50%;
 
   background:
-    radial-gradient(
-      circle,
+    radial-gradient(circle,
       rgba(18, 198, 238, 0.15),
-      transparent 68%
-    );
+      transparent 68%);
 
   left: -130px;
   top: -150px;
@@ -1529,11 +1455,9 @@ img {
 
 .accent-card {
   background:
-    linear-gradient(
-      145deg,
+    linear-gradient(145deg,
       #082553,
-      #061d45
-    );
+      #061d45);
 
   color: #fff;
 
@@ -1655,7 +1579,7 @@ img {
     text-align: center;
   }
 
-  .hero-copy > p {
+  .hero-copy>p {
     margin-right: auto;
     margin-left: auto;
   }
@@ -1784,7 +1708,7 @@ img {
     font-size: 2.7rem;
   }
 
-  .hero-copy > p {
+  .hero-copy>p {
     font-size: 1rem;
   }
 
@@ -1987,6 +1911,7 @@ img {
 .partner-logo.cloudflare img {
   width: 180px;
 }
+
 .partner-logo.eset,
 .partner-logo.microsoft,
 .partner-logo.cloudflare,
