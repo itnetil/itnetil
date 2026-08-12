@@ -219,13 +219,9 @@ img {
 
 .hero {
   min-height: 730px;
-
   padding-top: 130px;
-
   position: relative;
-
   color: #fff;
-
   background:
     radial-gradient(
       circle at 30% 30%,
